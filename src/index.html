@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../font/fonts.css">
+    <script src="../src/main.js" defer></script>
+</head>
+<body>
+    <main class="overpass bg-[hsl(216,12%,8%)]">
+        <article class="px-5 md:px-0 pt-44 pb-96 w-[375px] sm:w-[400px] md:w-[500px] mx-auto">
+            <article class="bg-[hsl(215,16%,15%)] p-6 md:p-10 grid gap-10 rounded-3xl"> 
+                <img src="../images/icon-star.svg" alt="icon-star" class="bg-[hsl(213,19%,18%)] rounded-full p-4">
+                <div class="grid gap-3">
+                    <h1 class="text-white text-[clamp(1.7rem,1.8vw,10rem)] font-normal">How did we do?</h1>
+                    <p class="text-[clamp(1rem,1vw,10rem)] text-[hsl(212,7%,57%)] font-normal">Please let us know how we did with your support<br class="hidden md:block">
+                        request. All feedback is appreciated to help us<br class="hidden md:block">
+                        improve our offering!</p>
+                </div>
+                <ul class="flex justify-between items-center text-[hsl(217,12%,63%)] font-bold text-[clamp(1rem,0.8vw,10rem)]">
+                    <li>
+                        <button class="bg-[hsl(213,19%,18%)] w-[45px] h-[45px] md:w-[55px] md:h-[55px] rounded-full cursor-pointer 
+                        hover:bg-[hsl(25,97%,53%)] hover:text-[hsl(216,12%,8%)] duration-300 ease-in-out" data-js-list-element>1</button>
+                    </li>
+                    <li>
+                        <button class="bg-[hsl(213,19%,18%)] w-[45px] h-[45px] md:w-[55px] md:h-[55px] rounded-full cursor-pointer
+                        hover:bg-[hsl(25,97%,53%)] hover:text-[hsl(216,12%,8%)] duration-300 ease-in-out" data-js-list-element>2</button>
+                    </li>
+                    <li>
+                        <button class="bg-[hsl(213,19%,18%)] w-[45px] h-[45px] md:w-[55px] md:h-[55px] rounded-full cursor-pointer
+                        hover:bg-[hsl(25,97%,53%)] hover:text-[hsl(216,12%,8%)] duration-300 ease-in-out" data-js-list-element>3</button>
+                    </li>
+                    <li>
+                        <button class="bg-[hsl(213,19%,18%)] w-[45px] h-[45px] md:w-[55px] md:h-[55px] rounded-full cursor-pointer
+                        hover:bg-[hsl(25,97%,53%)] hover:text-[hsl(216,12%,8%)] duration-300 ease-in-out" data-js-list-element>4</button>
+                    </li>
+                    <li>
+                        <button class="bg-[hsl(213,19%,18%)] w-[45px] h-[45px] md:w-[55px] md:h-[55px] rounded-full cursor-pointer
+                        hover:bg-[hsl(25,97%,53%)] hover:text-[hsl(216,12%,8%)] duration-300 ease-in-out" data-js-list-element>5</button>
+                    </li>
+                </ul>
+                <button type="submit" class="bg-[hsl(25,97%,53%)] py-3 font-bold tracking-[3px] rounded-4xl cursor-pointer
+                hover:bg-white duration-300 ease-in-out text-[clamp(1rem,0.9vw,10rem)]" data-js-button-submit>SUBMIT</button>
+            </article>
+        </article>
+    </main>
+</body>
+</html>
